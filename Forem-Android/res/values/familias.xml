@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="familias">
+		<item>
+			Agraria
+		</item>
+		<item>Marítimo pesqueira</item>
+		<item>Industrias alimentarias</item>
+		<item>Química</item>
+		<item>Imaxe persoal</item>
+		<item>Sanidade</item>
+		<item>
+			Seguridade e medio ambiente
+		</item>
+		<item>Fabricación mecánica</item>
+		<item>Instalación e mantemento
+		</item>
+		<item>Electricidade e electrónica</item>
+		<item>Enerxía e auga
+		</item>
+		<item>Transporte e mantemento de vehículos</item>
+		<item>Industrias extractivas
+		</item>
+		<item>Edificación e obra civil</item>
+		<item>Vidro e cerámica
+		</item>
+		<item>Madeira, moble e cortiza</item>
+		<item>Téxtil, confección e pel
+		</item>
+		<item>Artes gráficas</item>
+		<item>Imaxe e son</item>
+		<item>Informática e telecomunicacións
+		</item>
+		<item>Administración e xestión</item>
+		<item>Comercio e márketing
+		</item>
+		<item>Servizos socioculturais e á comunidade</item>
+		<item>Hostalaría e turismo
+		</item>
+		<item>Actividades físicas e deportivas</item>
+		<item>
+			Artesanías
+		</item>
+		<item>Competencias transversais</item>
+	</string-array>
+	<string-array name="idsfamilias">
+		<item>
+			Agraria
+		</item>
+		<item>Marítimo pesqueira</item>
+		<item>Industrias alimentarias</item>
+		<item>Química</item>
+		<item>Imaxe persoal</item>
+		<item>Sanidade</item>
+		<item>
+			Seguridade e medio ambiente
+		</item>
+		<item>Fabricación mecánica</item>
+		<item>Instalación e mantemento
+		</item>
+		<item>Electricidade e electrónica</item>
+		<item>Enerxía e auga
+		</item>
+		<item>Transporte e mantemento de vehículos</item>
+		<item>Industrias extractivas
+		</item>
+		<item>Edificación e obra civil</item>
+		<item>Vidro e cerámica
+		</item>
+		<item>Madeira, moble e cortiza</item>
+		<item>Téxtil, confección e pel
+		</item>
+		<item>Artes gráficas</item>
+		<item>Imaxe e son</item>
+		<item>Informática e telecomunicacións
+		</item>
+		<item>Administración e xestión</item>
+		<item>Comercio e márketing
+		</item>
+		<item>Servizos socioculturais e á comunidade</item>
+		<item>Hostalaría e turismo
+		</item>
+		<item>Actividades físicas e deportivas</item>
+		<item>
+			Artesanías
+		</item>
+		<item>Competencias transversais</item>
+	</string-array>
+
+</resources>

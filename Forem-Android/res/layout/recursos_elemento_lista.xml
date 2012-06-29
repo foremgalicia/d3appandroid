@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+	android:padding="6dip" android:paddingTop="10dip" style="@style/listaRecursos">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_weight="1"
+		android:layout_height="fill_parent">
+		<ImageView android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/icono"
+			android:src="@drawable/flechanaran" android:layout_marginRight="10dip"
+			android:gravity="center_vertical"></ImageView>
+		<TextView android:id="@+id/texto" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="2"
+			android:gravity="center_vertical" android:ellipsize="marquee"
+			android:paddingLeft="10px" android:textColor="#116490"
+			android:textSize="16dip" android:maxLines="5" android:singleLine="false" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+	<string-array name="idiomas">
+		<item>Galego</item>
+		<item>Castellano</item>
+	</string-array>
+
+	<string-array name="idiomas_values">
+		<item>gl</item>
+		<item>es</item>
+	</string-array>
+
+
+</resources>

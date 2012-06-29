@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /* ** Copyright (C) 2010 Cyril Mottier (http://www.cyrilmottier.com) 
+	** ** Licensed under the Apache License, Version 2.0 (the "License"); ** 
+	you may not use this file except in compliance with the License. ** You may 
+	obtain a copy of the License at ** ** http://www.apache.org/licenses/LICENSE-2.0 
+	** ** Unless required by applicable law or agreed to in writing, software 
+	** distributed under the License is distributed on an "AS IS" BASIS, ** WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ** See the 
+	License for the specific language governing permissions and ** limitations 
+	under the License. */ -->
+
+<resources>
+
+	<style name="SeparatorItemView" parent="GreenDroid.Widget.ItemView.SeparatorItemView">
+		<item name="android:background">@drawable/separator_bg</item>
+	</style>
+
+	<style name="TextAppearanceLarge" parent="@style/TextAppearance.Large">
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="Ficha">
+		<item name="android:background">#ffffff</item>
+	</style>
+
+	<style name="MenuFicha">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">fill_parent</item>
+	</style>
+
+	<style name="ContenidoFicha">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<style name="FilaListado">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#116490</item>
+		<item name="android:background">#edf1f4</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:singleLine">false</item>
+		<item name="android:maxLines">5</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:marqueeRepeatLimit">marquee_forever</item>
+	</style>
+
+	<style name="listaRecursos">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:padding">0dp</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#116490</item>
+		<item name="android:background">#edf1f4</item>
+		<item name="android:singleLine">false</item>
+		<item name="android:maxLines">3</item>
+		<item name="android:ellipsize">marquee</item>
+	</style>
+</resources>

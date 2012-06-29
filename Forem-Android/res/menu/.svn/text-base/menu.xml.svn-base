@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/contactoTitle" android:title="@string/tab_Contacto" android:icon="@drawable/ic_tab_contacto"/>
+<item android:id="@+id/tiendaTitle" android:title="@string/tab_Tienda" android:icon="@drawable/ic_tab_tienda"/>
+<item android:id="@+id/prefsTitle" android:title="@string/menu_preferencias" android:icon="@android:drawable/ic_menu_preferences"/>
+<item android:id="@+id/shareTitle" android:title="@string/menu_compartir" android:icon="@android:drawable/ic_menu_share"/>
+</menu>

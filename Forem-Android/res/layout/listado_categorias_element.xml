@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView style="@style/FilaListado" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:textColor="#FFF" android:singleLine="false" android:maxLines="5">
+</TextView>

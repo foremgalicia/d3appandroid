@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/prefsTitle" android:title="Preferencias" android:icon="@android:drawable/ic_menu_preferences"/>
+<item android:id="@+id/shareTitle" android:title="Compartir" android:icon="@android:drawable/ic_menu_share"/>
+<item android:id="@+id/visitarOriginalTitle" android:title="Artículo original" android:icon="@android:drawable/ic_menu_view"/>
+</menu>

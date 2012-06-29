@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrllvwNo1" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:textColor="#000000"
+	android:background="#f0f0f0">
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:background="#f0f0f0"
+		android:isScrollContainer="true" android:orientation="vertical">
+		<TextView android:id="@+id/title" android:text="Recurso de ejemplo"
+			android:layout_height="wrap_content" android:textColor="#000000"
+			android:textSize="26dip" android:gravity="center"
+			android:layout_width="fill_parent" android:editable="false"
+			android:layout_marginBottom="20px" />
+		<TextView android:id="@+id/sncp" android:text="SNCP"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#000000" android:textSize="22dip"
+			android:layout_marginBottom="10px" />
+
+		<TextView android:id="@+id/lblFamilia" android:text="Familia"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#000000" />
+		<EditText android:id="@+id/familia" android:text="química"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:editable="false" android:layout_marginBottom="10px" />
+		<TextView android:id="@+id/lblCualificacion" android:text="Cualificación"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#000000" />
+		<EditText android:id="@+id/cualificacion"
+			android:text="ensayos microbiológicos y biotecnológicos"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:editable="false" android:layout_marginBottom="10px" />
+		<TextView android:id="@+id/lblUnidad" android:text="Unidad"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#000000" />
+		<EditText android:id="@+id/unidad"
+			android:text="Realizar ensayos biotecnológicos, informando de los resultados"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:editable="false" android:layout_marginBottom="10px" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000"
+			android:textSize="22dip" android:id="@+id/lblTipoRecurso"
+			android:text="@string/tipoRecurso" />
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/tipoRecurso"
+			android:editable="false" android:layout_marginBottom="10px">
+		</EditText>
+		<TextView android:textColor="#000000" android:layout_height="wrap_content"
+			android:text="Recurso" android:layout_marginBottom="10px"
+			android:layout_width="wrap_content" android:id="@+id/lblRecurso"
+			android:textSize="22dip"></TextView>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+			<Button android:layout_height="wrap_content" android:id="@+id/botonRecurso"
+				android:layout_width="wrap_content" android:text="@string/descargarObxecto"></Button>
+			<Button android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/consultarFicha"
+				android:id="@+id/botonFicha"></Button>
+		</LinearLayout>
+		<TextView android:textColor="#000000" android:layout_height="wrap_content"
+			android:text="Recurso de ejemplo.pdf (314Kb)" android:layout_width="wrap_content"
+			android:id="@+id/recurso"></TextView>
+	</LinearLayout>
+</ScrollView>

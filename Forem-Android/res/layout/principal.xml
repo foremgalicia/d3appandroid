@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<greendroid.widget.ActionBarHost
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/gd_action_bar_host"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<greendroid.widget.ActionBar android:id="@id/gd_action_bar"
+		android:layout_height="@dimen/gd_action_bar_height"
+		android:layout_width="fill_parent" android:background="?attr/gdActionBarBackground" />
+	<ScrollView android:id="@+id/scroll" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:background="#f0f0f0">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Familias SNCP de recursos"
+				android:textSize="24dp" android:gravity="center" android:textColor="#000" />
+			<!-- List view -->
+			<ListView android:id="@+android:id/list"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:dividerHeight="0px" android:divider="#00000000"
+				android:textColor="#111" />
+		</LinearLayout>
+	</ScrollView>
+
+</greendroid.widget.ActionBarHost>

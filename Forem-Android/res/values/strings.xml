@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /* ** Copyright (C) 2010 Cyril Mottier (http://www.cyrilmottier.com) 
+	** ** Licensed under the Apache License, Version 2.0 (the "License"); ** 
+	you may not use this file except in compliance with the License. ** You may 
+	obtain a copy of the License at ** ** http://www.apache.org/licenses/LICENSE-2.0 
+	** ** Unless required by applicable law or agreed to in writing, software 
+	** distributed under the License is distributed on an "AS IS" BASIS, ** WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ** See the 
+	License for the specific language governing permissions and ** limitations 
+	under the License. */ -->
+
+<resources>
+
+	<string name="app_name">Desire3</string>
+	<string name="proxectodesire">Proxecto Desire</string>
+	<string name="app_description">Aplicación del Proxecto Desire de Forem Galicia</string>
+	<string name="app_url">http://www.proxectodesire.eu/</string>
+
+	<string name="desire3es">Desire es un repositorio de objetos de aprendizaje,
+		que clasifica los contenidos en base al Sistema Nacional de
+		Calificaciones Profesionales y al estándar LOM_ES.</string>
+	<string name="vercatalogo">Catálogo</string>
+	<string name="visitarweb">Posts</string>
+	<string name="contacto">Contacto</string>
+
+	<string name="more_info_on_greendroid">Para máis información sobre Forem Galicia ou o
+		Proxecto Desire visita a nosa páxina web ou síguenos en twitter:</string>
+
+	<!-- Activities labels -->
+	<string name="general_info_label">Información xeral</string>
+
+	<string name="about">Acerca de</string>
+	<string name="license">Licencia</string>
+
+	<string name="about_content">
+		Con la aplicación móvil para Android podrás consultar los recursos
+		formativos disponibles, descargarlos a tu terminal, y estar al día de
+		la comunidad del proyecto leyendo los últimos tweets de
+		@proxectoDesire y del blog del proyecto. Además puedes seguir la
+		actualidad del proyecto
+		<a href="http://twitter.com/#!/foremgalicia">en twitter</a>
+		o
+		<a href="http://portal.foremgalicia.eu/">en la web del proyecto</a>
+	</string>
+	<string name="about_zadia">
+		La aplicación Desire3 ha sido desarrollada en 2011 por
+		<a href="http://www.zadiasoftware.com">Zadia Software</a>
+		para Forem Galicia. El código se encuentra liberado bajo licencia GPL
+		<a href="http://www.proxectodesire.eu/">en la web del proyecto</a>
+	</string>
+	<string name="about_greendroid">
+		La aplicación utiliza el código fuente de la librería
+		<a href="https://github.com/cyrilmottier/GreenDroid">Greendroid</a>
+		, creada por Cyril Mottier, cuyo código es libre bajo licencia Apache
+	</string>
+
+	<string name="catalogorecursos">Recursos</string>
+	<string name="nohayrecursos">No existen recursos formativos en la familia
+		seleccionada</string>
+	<string name="aceptar">Aceptar</string>
+
+	<string name="notwitter">No se han podido recuperar los tweets de
+		@ProxectoDesire, inténtalo más tarde.</string>
+	<string name="noblog">No se han podido recuperar los posts del blog de
+		Proxecto Desire, inténtalo más tarde.</string>
+
+	<string name="compartirtitulo">Recurso formativo de Desire3</string>
+	<string name="compartirtexto">Hola, comparto contigo el recurso formativo</string>
+	<string name="compartirtexto2">del catálogo de recursos formativos del Proyecto
+		Desire3.\n\n Puedes visitarlo en la siguiente URL: </string>
+	<string name="firma">Enviado desde la aplicación Android del Proyecto
+		Desire3</string>
+	<string name="compartir">Compartir</string>
+
+
+	<string name="prefsTitle">Preferencias</string>
+	<string name="shareTitle">Compartir</string>
+	<string-array name="idiomasArray">
+		<item>es</item>
+		<item>gl</item>
+	</string-array>
+	<string-array name="titulosIdiomasArray">
+		<item>Español</item>
+		<item>Galego</item>
+	</string-array>
+
+	<string name="menu_share_subject">Proxecto Desire 3 para Android</string>
+	<string name="menu_share_generic">Estoy utilizando la aplicación de Forem Galicia y
+		creo que podrían interesarte los recursos formativos de su catálogo.</string>
+	<string name="menu_share_body">Enviado dende la aplicación Android de Forem
+		Galicia para el Proxecto Desire (http://www.proxectodesire.eu/)</string>
+	<string name="menu_share_intent">Compartir recurso</string>
+	<!-- general -->
+	<string name="cargando">Cargando...</string>
+	<string name="cargando_informacion">Accediendo a la información...</string>
+	<!-- menu -->
+	<string name="menu_preferencias">Preferencias</string>
+	<string name="menu_compartir">Compartir</string>
+	<string name="pref_tit_idioma">Idioma preferido</string>
+	<string name="pref_res_idioma">El idioma del interfaz de la aplicación</string>
+	<string name="prueba_titulo">Nombre del recurso</string>
+	<string name="detalle_sncp">SNCP</string>
+	<string name="familiasrecursos">Familias de recursos</string>
+	<string name="consultarecursos">Elige una categoría SNCP</string>
+
+	<string name="descargandoRecurso">Descargando recurso</string>
+	<string name="nohayurl">El recurso non ten ficheiro asociado</string>
+	<string name="nohayficha">El recurso non tiene ficha asociada</string>
+	<string name="nosncp">El recurso non ten SNCP asociado</string>
+	<string name="norecurso">Sin fichero asociado..</string>
+	<string name="nodisponible">Non disponible</string>
+	<string name="hahabidoerrordescargando">Ha habido un error descargando el fichero.</string>
+
+	<string name="twitter">ProxectoDesire</string>
+
+	<string name="financiada">Proyecto cofinanciado por:</string>
+
+	<string name="opcionidioma">Esta opción le permite seleccionar el idioma de la
+		aplicación</string>
+
+	<string name="tipoRecurso">Tipo de recurso educativo</string>
+
+	<string name="descargarObxecto">Descargar objeto</string>
+
+	<string name="consultarFicha">Consultar ficha</string>
+
+	<string-array name="tiposRecursos">
+		<item>Media</item>
+		<item>Sistema de representación da información</item>
+		<item>Aplicación informática</item>
+		<item>Servizo</item>
+		<item>Contido didáctico</item>
+	</string-array>
+
+	<string name="email_asunto">Contacto desde Desire3 para Android</string>
+	<string name="email_titulo">Ponte en contacto</string>
+
+</resources>
